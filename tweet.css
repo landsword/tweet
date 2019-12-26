@@ -1,0 +1,42 @@
+header {
+    text-align : center;
+    color : #1b7dda;
+    font-size : 4em;
+    font-weight : bold;
+}
+textarea {
+    resize : none;
+}
+section #ICON {
+    position : relative;
+    height : 100px;
+    width : 10rem;
+}
+section #ID {
+    position : relative;
+}
+#IN {
+    border : 0.5rem solid #1b7dda;
+    border-radius : 1rem;
+    width : 60rem;
+    margin : 0 auto;
+    padding : 1rem 2rem;
+}
+.cmt {
+    border : 0.1rem dashed #1b7dda;
+    border-radius : 1rem;
+    width : 60rem;
+    margin : 0 auto;
+    padding : 1rem 2rem;
+}
+#ID textarea {
+    height: 1rem;
+}
+#TWEET textarea {
+    width: 60rem;
+    height: 3rem;
+}
+input {
+    width: 5rem;
+    height: 2rem;
+}
