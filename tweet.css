@@ -7,14 +7,6 @@ header {
 textarea {
     resize : none;
 }
-section #ICON {
-    position : relative;
-    height : 100px;
-    width : 10rem;
-}
-section #ID {
-    position : relative;
-}
 #IN {
     border : 0.5rem solid #1b7dda;
     border-radius : 1rem;
@@ -26,10 +18,11 @@ section #ID {
     border : 0.1rem dashed #1b7dda;
     border-radius : 1rem;
     width : 60rem;
-    margin : 0 auto;
+    margin : 0.5rem auto;
     padding : 1rem 2rem;
 }
 #ID textarea {
+    width: 15rem;
     height: 1rem;
 }
 #TWEET textarea {
@@ -39,4 +32,20 @@ section #ID {
 input {
     width: 5rem;
     height: 2rem;
+}
+.cmt :nth-child(1) {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.cmt :nth-child(1):hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.cmt :nth-child(2) {
+    font-size: 1.3rem;
+}
+.cmt :nth-child(3) {
+    font-size: 1rem;
+    color: #aaaaaa;
+    text-align: right;
 }
